@@ -15,6 +15,7 @@
 		B987F9171F7A2C3A00E35894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B987F9161F7A2C3A00E35894 /* main.m */; };
 		B987F9211F7A2C3A00E35894 /* HggVerificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B987F9201F7A2C3A00E35894 /* HggVerificationTests.m */; };
 		B987F92C1F7A2C3A00E35894 /* HggVerificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B987F92B1F7A2C3A00E35894 /* HggVerificationUITests.m */; };
+		B987F93C1F7A2CB200E35894 /* HggVerifiView.m in Sources */ = {isa = PBXBuildFile; fileRef = B987F93B1F7A2CB200E35894 /* HggVerifiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B987F9271F7A2C3A00E35894 /* HggVerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HggVerificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B987F92B1F7A2C3A00E35894 /* HggVerificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HggVerificationUITests.m; sourceTree = "<group>"; };
 		B987F92D1F7A2C3A00E35894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B987F93A1F7A2CB200E35894 /* HggVerifiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HggVerifiView.h; sourceTree = "<group>"; };
+		B987F93B1F7A2CB200E35894 /* HggVerifiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HggVerifiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B987F9061F7A2C3A00E35894 /* HggVerification */ = {
 			isa = PBXGroup;
 			children = (
+				B987F9391F7A2C7B00E35894 /* HggVerificationCodeView */,
 				B987F9071F7A2C3A00E35894 /* AppDelegate.h */,
 				B987F9081F7A2C3A00E35894 /* AppDelegate.m */,
 				B987F90A1F7A2C3A00E35894 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				B987F92D1F7A2C3A00E35894 /* Info.plist */,
 			);
 			path = HggVerificationUITests;
+			sourceTree = "<group>";
+		};
+		B987F9391F7A2C7B00E35894 /* HggVerificationCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				B987F93A1F7A2CB200E35894 /* HggVerifiView.h */,
+				B987F93B1F7A2CB200E35894 /* HggVerifiView.m */,
+			);
+			path = HggVerificationCodeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B987F93C1F7A2CB200E35894 /* HggVerifiView.m in Sources */,
 				B987F90C1F7A2C3A00E35894 /* ViewController.m in Sources */,
 				B987F9171F7A2C3A00E35894 /* main.m in Sources */,
 				B987F9091F7A2C3A00E35894 /* AppDelegate.m in Sources */,
